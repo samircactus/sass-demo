@@ -28,9 +28,10 @@ padding: 0;
 font-size: 14px;
 font-family:$font-main; 
 color: $color-body-txt; 
+line-height: 22px;
 }
 
 
 
 h1,h2,h3,h4,h5,h6{ color:$color-titles;}
-p{padding: 10px 0; font-family:$font-highlight}
+p{padding: 10px 0; font-family:$font-main}
