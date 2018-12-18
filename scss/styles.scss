@@ -1,3 +1,36 @@
-h1{font-size: 80px}
-h2{color:blue;}
-p{padding: 10px 0;}
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+
+$blue:	#0075b1;
+$green: #b0eb00;
+$lime: 	#b0eb00;
+$bright-red: #b30015;
+$dark-blue: #2a00b3;
+$deep-cerulean: #0077b3;
+$bondi-blue: #00b0b3;
+$cyan: #24fbff;
+$heliotrope: #8a7dff;
+$silver-chalice: #a6a6a6;
+$scorpion: #595959;
+$tundora: #444;
+$mine-shaft: #363636;
+$cod-gray: #111;
+
+$color-primary: $blue;
+$font-main: 'Nanum Gothic', Helevtica, sans-serif;
+$font-highlight: 'Open Sans', Helevtica, sans-serif;
+$color-titles: $blue;
+$color-body-txt: #4d4d4d;
+
+html{font-size: 62.5%;}
+body{
+margin: 0; 
+padding: 0; 
+font-size: 14px;
+font-family:$font-main; 
+color: $color-body-txt; 
+}
+
+
+
+h1,h2,h3,h4,h5,h6{ color:$color-titles;}
+p{padding: 10px 0; font-family:$font-highlight}
